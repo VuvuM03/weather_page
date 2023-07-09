@@ -1,0 +1,55 @@
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+
+span.current-temperature {
+  font-size: 30px;
+}
+span.symbol {
+  font-size: 1rem;
+  line-height: 1;
+}
+.date {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+.weather-info {
+  text-align: right;
+}
+.bg-secondary {
+  --bs-bg-opacity: 2;
+  background-color: rgba(
+    var(--bs-secondary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
+.heading {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+.fa-sun,
+.fa-bolt-lightning {
+  color: yellow;
+  display: block;
+  align-items: center;
+}
+.fa-cloud-rain {
+  color: lightgray;
+  display: block;
+  align-items: center;
+}
+
+.card-body {
+  background-color: transparent;
+}
+.col-3 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.white-font {
+  color: white;
+}
